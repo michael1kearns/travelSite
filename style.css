@@ -161,3 +161,31 @@ h1 {
 	position: relative;
 	margin-bottom: 30px;
 }
+
+/* banner */
+.banner {
+	height: 80%;
+	background-image: url(images/banner2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top: 14%;
+}
+
+.banner-highlights {
+	padding: 70px 0;
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	color: #fbfbd4;
+}
+
+.booking-btn {
+	width: 120px;
+	padding: 8px 0;
+	outline: none !important;
+	border: 2px solid #fbfbd4;
+	border-radius: 50px;
+	background: transparent;
+	color: #fbfbd4;
+	margin-top: 20px;
+}
