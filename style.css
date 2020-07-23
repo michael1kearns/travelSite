@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 .header {
 	height: 100%;
@@ -12,9 +13,18 @@
 	text-align: center;
 	color: #fbfbd4;
 }
-.header img {
-	width: 50px;
-	float: left;
+
+h1,
+h4,
+h5 {
+	font-family: 'Shrikhand', cursive;
+	color: #f0bd64;
+}
+
+p,
+small,
+span {
+	font-family: 'Fanwood Text', serif;
 }
 
 .login-btn {
@@ -24,18 +34,23 @@
 	border: 2px solid #fbfbd4;
 	border-radius: 50px;
 	background: transparent;
+	font-family: 'Fanwood Text', serif;
 	color: #fbfbd4;
 	float: right;
 }
 
 .header h1 {
-	padding-top: 260px;
+	font-family: 'Shrikhand', cursive;
+	color: #f0bd64;
+	padding-top: 200px;
 	padding-bottom: 0;
 	font-size: 55px;
 }
 
 .header p {
+	font-family: 'Fanwood Text', serif;
 	margin: 18px 0;
+	color: #f0bd64;
 }
 
 .input-group {
@@ -59,6 +74,7 @@
 	background-image: linear-gradient(#e9bf69, #fbfbd4);
 	border: 0 !important;
 	color: #b5702b !important;
+	font-family: 'Fanwood Text', serif;
 	padding: 0 25px !important;
 	border-radius: 30px !important;
 	box-shadow: none !important;
@@ -110,11 +126,13 @@ h1 {
 }
 
 .feature-details {
+	font-family: 'Shrikhand', cursive;
 	padding: 20px;
 	text-align: justify;
 }
 
 .feature-details h4 {
+	font-family: 'Shrikhand', cursive;
 	font-weight: 600;
 	margin-top: 20px;
 }
@@ -146,6 +164,7 @@ h1 {
 }
 
 .gallery-box h4 {
+	font-family: 'Fanwood Text', serif;
 	display: block;
 	color: #efefef;
 	text-shadow: -2px 2px 2px #000;
@@ -174,8 +193,9 @@ h1 {
 
 .banner-highlights {
 	padding: 70px 0;
-	background: rgba(0, 0, 0, 0.7);
+	background: rgba(110, 71, 37, 0.73);
 	text-align: center;
+	font-family: 'Fanwood Text', serif;
 	color: #fbfbd4;
 }
 
@@ -186,6 +206,7 @@ h1 {
 	border: 2px solid #fbfbd4;
 	border-radius: 50px;
 	background: transparent;
+	font-family: 'Fanwood Text', serif;
 	color: #fbfbd4;
 	margin-top: 20px;
 }
@@ -203,6 +224,7 @@ h1 {
 }
 
 .user-review p {
+	font-family: 'Fanwood Text', serif;
 	padding: 50px 10px 10px 10px;
 }
 
@@ -220,7 +242,7 @@ h1 {
 	position: absolute;
 	font-size: 100px;
 	color: #c39562;
-	font-family: sans-serif;
+	font-family: 'Fanwood Text', serif;
 	left: 44%;
 	top: -20px;
 }
@@ -234,20 +256,22 @@ h1 {
 }
 
 .footer h4 {
+	font-family: 'Shrikhand', cursive;
 	text-align: left;
 	margin-top: 15px;
 	margin-bottom: 25px;
 }
 
 .footer p {
-	font-size: 12px;
+	font-family: 'Fanwood Text', serif;
+	font-size: 18px;
 	text-align: justify;
 	padding-right: 35px;
 }
 
 .footer .row .fa {
 	padding-right: 20px;
-	font-size: 15px;
+	font-size: 17px;
 }
 
 .footer hr {
@@ -257,4 +281,5 @@ h1 {
 
 .footer .copyright {
 	text-align: center;
+	font-family: 'Fanwood Text', serif;
 }
