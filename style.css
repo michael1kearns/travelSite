@@ -39,7 +39,7 @@
 }
 
 .input-group {
-	width: 90%;
+	width: 90% !important;
 	max-width: 500px;
 	border-radius: 30px;
 	background: #fbfbd4;
@@ -223,4 +223,38 @@ h1 {
 	font-family: sans-serif;
 	left: 44%;
 	top: -20px;
+}
+
+/* footer */
+
+.footer {
+	padding: 100px 20px 15px;
+	background-image: linear-gradient(#b46425, #b7995a);
+	color: #fbfbd4;
+}
+
+.footer h4 {
+	text-align: left;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.footer p {
+	font-size: 12px;
+	text-align: justify;
+	padding-right: 35px;
+}
+
+.footer .row .fa {
+	padding-right: 20px;
+	font-size: 15px;
+}
+
+.footer hr {
+	margin-top: 10px;
+	background: #efefef;
+}
+
+.footer .copyright {
+	text-align: center;
 }
