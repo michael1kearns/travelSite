@@ -85,7 +85,7 @@ h1 {
 	font-weight: 600;
 	border-radius: 50%;
 	padding: 10px;
-	box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+	box-shadow: 0 0 10px 1px rgba(189, 138, 81, 1);
 	position: absolute;
 	left: 20px;
 	bottom: -25px;
@@ -124,7 +124,7 @@ h1 {
 }
 
 .feature-box {
-	box-shadow: 0 0 10px 1px rgba(37, 73, 214, 0.18);
+	box-shadow: 0 0 10px 1px rgba(189, 138, 81, 1);
 	margin-bottom: 30px;
 }
 
@@ -147,7 +147,7 @@ h1 {
 
 .gallery-box h4 {
 	display: block;
-	color: #fff;
+	color: #efefef;
 	text-shadow: -2px 2px 2px #000;
 	font-weight: 600;
 	font-size: 20px;
@@ -188,4 +188,39 @@ h1 {
 	background: transparent;
 	color: #fbfbd4;
 	margin-top: 20px;
+}
+
+/* Review section */
+
+.users-feedback {
+	padding: 100px 0;
+}
+
+.user-review {
+	text-align: center;
+	box-shadow: 0 0 10px 0 rgba(189, 138, 81, 1);
+	padding-bottom: 50px;
+}
+
+.user-review p {
+	padding: 50px 10px 10px 10px;
+}
+
+.users-feedback img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	position: relative;
+	margin: -30px 0 20px 40%;
+}
+
+.user-review p::before {
+	content: '\201d';
+	display: block;
+	position: absolute;
+	font-size: 100px;
+	color: #c39562;
+	font-family: sans-serif;
+	left: 44%;
+	top: -20px;
 }
